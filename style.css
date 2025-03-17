@@ -42,3 +42,26 @@
 .menu-matter-1 ul li:last-child {
     border-right: 0;
 }
+.menu-matter-2 {
+    background: green;
+}
+
+.menu-matter-2 nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.menu-matter-2 nav ul li {
+    color: blue;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: emoji;
+    transition: all 5s ease;
+}
